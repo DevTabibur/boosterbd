@@ -18,7 +18,7 @@ const index = () => {
     formState: { errors },
   } = useForm();
 
-  const url = `http://localhost:5000/api/v1/forgot-password`;
+  const url = `https://boosterbd-server.onrender.com/api/v1/forgot-password`;
 
   const onSubmit = async (data, e) => {
     const email = data.email;

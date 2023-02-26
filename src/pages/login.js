@@ -21,7 +21,7 @@ const login = () => {
     setGetToken(getTokenFromLocalStorage)
   }, []);
 
-  const url = `http://localhost:5000/api/v1/user/login`;
+  const url = `https://boosterbd-server.onrender.com/api/v1/user/login`;
 
   const onSubmit = async (data, e) => {
     // console.log("login data", data);

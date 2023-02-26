@@ -72,7 +72,7 @@ const index = () => {
         } else {
           // console.log("everything is perfect");
           // everything is perfect
-          const url = `http://localhost:5000/api/v1/user/register/${_id}`;
+          const url = `https://boosterbd-server.onrender.com/api/v1/user/register/${_id}`;
           fetch(url, {
             method: "PUT",
             headers: {
@@ -139,7 +139,7 @@ const index = () => {
                     <img
                       width={280}
                       height={280}
-                      src={`http://localhost:5000/${singleUser?.imageURL}`}
+                      src={`https://boosterbd-server.onrender.com/${singleUser?.imageURL}`}
                       alt=""
                     />
                   ) : (

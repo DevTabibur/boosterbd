@@ -127,7 +127,7 @@ const index = (props) => {
 };
 
 export async function getServerSideProps(context) {
-  const res = await fetch(`http://localhost:5000/api/v1/ad-account`);
+  const res = await fetch(`https://boosterbd-server.onrender.com/api/v1/ad-account`);
   const data = await res.json();
   return {
     props: {data}, // will be passed to the page component as props

@@ -15,7 +15,7 @@ const Topbar = ({ pageName, color, size, show, setShow }) => {
 
   const logOut = (id) => {
     // console.log("id", id);
-    const url = `http://localhost:5000/api/v1/user/register/updateStatus/${id}`;
+    const url = `https://boosterbd-server.onrender.com/api/v1/user/register/updateStatus/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {
@@ -198,7 +198,7 @@ const Topbar = ({ pageName, color, size, show, setShow }) => {
           >
             {activeUser?.imageURL ? (
               <img
-                src={`http://localhost:5000/${activeUser?.imageURL}`}
+                src={`https://boosterbd-server.onrender.com/${activeUser?.imageURL}`}
                 alt="avatar"
                 className="rounded-lg"
                 style={{ height: "40px", width: "40px" }}

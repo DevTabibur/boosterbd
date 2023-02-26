@@ -90,7 +90,7 @@ const index = () => {
         } else {
           console.log("everything is perfect");
           // everything is perfect
-          const url = `http://localhost:5000/api/v1/products/add-service`;
+          const url = `https://boosterbd-server.onrender.com/api/v1/products/add-service`;
           // fetch(url, {`;
           fetch(url, {
             method: "POST",
@@ -126,7 +126,7 @@ const index = () => {
       return false;
     }
 
-    // const url = `http://localhost:5000/api/v1/products/add-service`;
+    // const url = `https://boosterbd-server.onrender.com/api/v1/products/add-service`;
     // fetch(url, {
     //   method: "POST",
     //   headers: {

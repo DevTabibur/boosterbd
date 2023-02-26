@@ -70,7 +70,7 @@ const register = () => {
       });
     } else {
       setLoading(true);
-      const url = `http://localhost:5000/api/v1/user/register`;
+      const url = `https://boosterbd-server.onrender.com/api/v1/user/register`;
       setRegisterLoading(true);
       fetch(url, {
         method: "POST",
@@ -114,7 +114,7 @@ const register = () => {
     };
     console.log("body", body);
 
-    const url = `http://localhost:5000/api/v1/user/register/verify`;
+    const url = `https://boosterbd-server.onrender.com/api/v1/user/register/verify`;
     fetch(url, {
       method: "POST",
       headers: { "content-type": "application/json" },
