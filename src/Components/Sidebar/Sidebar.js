@@ -203,8 +203,8 @@ const routes = [
     ),
   },
   {
-    route: "Login",
-    path: "/login",
+    route: "Register",
+    path: "/register",
     sub_route: [],
     icon: (
       <svg fill="none" viewBox="0 0 15 15" className="w-6 h-6">

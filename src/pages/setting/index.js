@@ -101,6 +101,11 @@ const index = () => {
                   top up
                 </Link>
               </div>
+              <div className="p-6">
+                <Link href={"/ad-limit-request"} className="text-3xl">
+                  ad limit request
+                </Link>
+              </div>
             </div>
           </div>
         </section>
